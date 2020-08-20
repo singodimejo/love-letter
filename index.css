@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-color: #197163;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-flow: column; 
+    margin: 8px 0;
+}
+
+.content {
+    background-color: #FADCAC;
+    color: #158467;
+    border: 5px solid whitesmoke;
+    padding: 1em;
+    margin: 0;
+}
+
+.icon {
+    filter: invert(98%);
+}
+
+.quote, .subquote, .title {
+    font-family: 'Alata', sans-serif;
+}
+
+.title {
+    font-size: 1.5rem;
+}
