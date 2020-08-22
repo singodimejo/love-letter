@@ -10,6 +10,10 @@ body {
     margin: 8px 0;
 }
 
+p {
+    font-size: 1.25em;
+}
+
 .content {
     background-color: #FADCAC;
     color: #158467;
@@ -61,7 +65,22 @@ body {
 }
 
 #dolphinq {
-    
+    display: flex;
+    flex-direction: column;
+    height: 899.3px;
+    width: auto;
+    background-image: url(./dolphin.jpg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+}
+
+#dolphinq p {
+    margin: 0.5rem 0;
+    font-family: 'Alata', sans-serif;
 }
 
 #loveletter {
@@ -69,8 +88,9 @@ body {
     align-items: center;
 }
 
-.quote, .subquote, .title {
+.title {
     font-family: 'Alata', sans-serif;
+    font-size: 20px;
 }
 
 .title {
