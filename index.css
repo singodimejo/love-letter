@@ -16,10 +16,57 @@ body {
     border: 5px solid whitesmoke;
     padding: 1em;
     margin: 0;
+    display: flex;
+}
+
+#herocopy {
+    flex-direction: column;
+    width: 500px;
+}
+
+.hero {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#maya {
+    padding: 0;
+    height: 265.5px;
+    width: 265.5px;
+    z-index: 1;
+    position: relative;
+    right: 150px;
+}
+
+#maya img {
+    width: 265.5px;
+    object-fit: contain;
+}
+
+#faves {
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .icon {
     filter: invert(98%);
+}
+
+#dolphinq {
+    
+}
+
+#loveletter {
+    flex-direction: column;
+    align-items: center;
 }
 
 .quote, .subquote, .title {
@@ -28,4 +75,6 @@ body {
 
 .title {
     font-size: 1.5rem;
+    align-self: center;
+    justify-self: center;
 }
