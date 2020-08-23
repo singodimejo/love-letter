@@ -55,6 +55,12 @@ p {
     flex-direction: column;
 }
 
+#favecopy {
+    padding: 1em 2em;
+    line-height: 1.5em;
+    text-align: left;
+}
+
 .icons {
     display: flex;
     flex-direction: row;
@@ -91,7 +97,7 @@ p {
     text-align: justify;
 }
 
-#dropbtn:hover {
+#dropbtn:hover, .icon:hover {
     cursor: pointer;
 }
 
@@ -136,6 +142,6 @@ p {
     justify-content: space-evenly;
 }
 
-.links a {
+a {
     color: rgb(11, 66, 52);
 }
