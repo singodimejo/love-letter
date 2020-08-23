@@ -91,6 +91,10 @@ p {
     text-align: justify;
 }
 
+#dropbtn:hover {
+    cursor: pointer;
+}
+
 #ily {
     margin: 2rem 0;
     display: flex;
